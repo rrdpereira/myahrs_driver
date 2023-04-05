@@ -1,6 +1,6 @@
 <launch>
   <node pkg="myahrs_driver" type="myahrs_driver" name="myahrs_driver">
-    <param name="port" value="/dev/ttyACM1" />
+    <param name="port" value="/dev/myahrs" />
     <param name="baud_rate" value="115200" />
   </node>
   <node pkg="rviz" type="rviz" name="rviz" args="-d $(find myahrs_driver)/rviz_cfg/imu_test.rviz" />
