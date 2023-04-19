@@ -8,5 +8,6 @@
   <node pkg="tf2_ros" type="static_transform_publisher" name="world_to_map_broadcaster" args="0 0 0 0 0 0 world map"/>
   <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_odom_broadcaster" args="0 0 0 0 0 0 map odom"/>
   <node pkg="tf2_ros" type="static_transform_publisher" name="odom_to_base_link_broadcaster" args="0 0 0 0 0 0 odom base_link"/>
+  <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="base_link_to_imu_link_broadcaster" args="0 0 0.166 0 0 0 base_link imu_link"/> -->
   <node pkg="tf2_ros" type="static_transform_publisher" name="base_link_to_imu_link_broadcaster" args="0 0 0.178 0 0 0 base_link imu_link"/>
 </launch>
